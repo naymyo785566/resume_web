@@ -7,14 +7,12 @@ const codeSnippets = [
   database: 'MySQL',
   architecture: 'RESTful'
 });`,
-  `function deployApp() {
-  docker.build();
-  aws.deploy();
-}`,
+
   `const fullStack = {
   frontend: ['React', 'TypeScript'],
-  backend: ['Node.js', 'Laravel'],
-  devops: ['Docker', 'AWS']
+  backend: [ 'Laravel'],
+  database: ['MySQL','postgreSQL'],
+  deployment: ['AWS']
 };`
 ];
 

@@ -11,7 +11,7 @@ const techStack = [
     category: 'Back-end',
     icon: Server,
     color: 'cyan',
-    skills: ['Node.js', 'Express', 'Laravel', 'PHP', 'REST APIs']
+    skills: [ 'Laravel', 'PHP', 'REST APIs']
   },
   {
     category: 'Database',
@@ -20,10 +20,10 @@ const techStack = [
     skills: ['MySQL', 'PostgreSQL', 'Query Optimization']
   },
   {
-    category: 'DevOps & Tools',
+    category: 'Deployment & Tools',
     icon: Container,
     color: 'emerald',
-    skills: ['Git', 'Docker', 'AWS', 'CI/CD', 'Linux', 'Nginx']
+    skills: ['Git', 'AWS', 'CI/CD', 'Linux','Docker']
   }
 ];
 
@@ -105,9 +105,9 @@ export default function TechStack() {
           <div className="flex items-start space-x-4">
             <div className="text-4xl">🚀</div>
             <div>
-              <h3 className="text-xl font-bold text-white mb-2">DevOps Architecture</h3>
+              <h3 className="text-xl font-bold text-white mb-2">Git & Version Control</h3>
               <p className="text-gray-400 leading-relaxed">
-                Expert in containerizing applications with <span className="text-cyan-400 font-semibold">Docker</span>, orchestrating scalable deployments on <span className="text-yellow-400 font-semibold">AWS</span>, and implementing CI/CD pipelines. 
+                Proficient in Git for version control, enabling efficient collaboration and code management across teams. Experienced with branching strategies, pull requests, and resolving merge conflicts to maintain a clean and organized codebase.
               </p>
             </div>
           </div>

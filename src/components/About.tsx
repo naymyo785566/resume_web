@@ -33,11 +33,11 @@ export default function About() {
               </p>
 
               <p>
-                My expertise lies in crafting <span className="text-cyan-400">dynamic front-ends with React</span>, architecting <span className="text-yellow-400">powerful APIs with Node.js and Laravel</span>, and managing complex data relationships with MySQL. But what truly sets me apart is my deep understanding of infrastructure and deployment.
+                My expertise lies in crafting <span className="text-cyan-400">dynamic front-ends with React</span>, architecting <span className="text-yellow-400">powerful APIs with Laravel</span>, and managing complex data relationships with MySQL. But what truly sets me apart is my deep understanding of infrastructure and deployment.
               </p>
 
               <p>
-                I'm the developer who <span className="text-emerald-400 font-semibold">connects design and server architecture into one seamless system</span>. I ensure that user interface ideas are properly supported by strong, scalable backend infrastructure. Whether it’s packaging applications with Docker, managing cloud deployments on AWS, or optimizing database queries for high-traffic systems, I enjoy solving complex technical challenges across multiple layers of the stack.
+                I'm the developer who <span className="text-emerald-400 font-semibold">connects design and server architecture into one seamless system</span>. I ensure that user interface ideas are properly supported by strong, scalable backend infrastructure. I have a knack for understanding how to optimize performance, security, and scalability across the entire stack, making me a true full-stack developer who can handle every aspect of the development process.
               </p>
 
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-8">
@@ -49,17 +49,17 @@ export default function About() {
                 <div className="bg-[#1a1a1a] p-4 rounded-lg border border-cyan-500/20 hover:border-cyan-500/40 transition-all group">
                   <Server className="text-cyan-400 mb-2 group-hover:scale-110 transition-transform" size={24} />
                   <p className="text-sm font-semibold">Backend</p>
-                  <p className="text-xs text-gray-500">Node & Laravel</p>
+                  <p className="text-xs text-gray-500"> Laravel</p>
                 </div>
                 <div className="bg-[#1a1a1a] p-4 rounded-lg border border-yellow-500/20 hover:border-yellow-500/40 transition-all group">
                   <Database className="text-yellow-400 mb-2 group-hover:scale-110 transition-transform" size={24} />
                   <p className="text-sm font-semibold">Database</p>
-                  <p className="text-xs text-gray-500">MySQL</p>
+                  <p className="text-xs text-gray-500">MySQL & PostgreSQL</p>
                 </div>
                 <div className="bg-[#1a1a1a] p-4 rounded-lg border border-emerald-500/20 hover:border-emerald-500/40 transition-all group">
                   <Cloud className="text-emerald-400 mb-2 group-hover:scale-110 transition-transform" size={24} />
-                  <p className="text-sm font-semibold">DevOps</p>
-                  <p className="text-xs text-gray-500">Docker & AWS</p>
+                  <p className="text-sm font-semibold">Deployment</p>
+                  <p className="text-xs text-gray-500">AWS</p>
                 </div>
               </div>
             </div>

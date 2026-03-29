@@ -165,7 +165,7 @@ export default function Contact(): JSX.Element {
             </a>
 
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/nay-myo-hlaing-335956399"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 bg-[#1a1a1a] border border-cyan-500/20 rounded-lg hover:bg-cyan-500/10 transition"
